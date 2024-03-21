@@ -29,7 +29,7 @@ def get_guitar_details():
         guitars.append(Guitar(name, year, cost))
         name = input("Name: ")
 
-    return guitars[0] if guitars else Guitar("", 0, 0)
+    return Guitar("", 0, 0)
 
 
 main()
